@@ -9,7 +9,7 @@ Out of the box, the main module of KSrP contains:
 - A global **2.56× rescale** for the stock Solar System, resulting in **slightly higher difficulty**, yes, but also **less overpowered parts**, prettier views from low orbit, and longer days.
 - Rewritten titles and descriptions for **hundreds** of parts!
 - **New resource names!** `Liquid Fuel`, `Oxidizer`, and `Monopropellant` are now `Kerosene`, `LqdOxygen`, and `Hydrazine`.
-- Fixes for **bad MH parts**: **Monopropellant** in the Mk2 Command Pod, proper **internal temperature limits** for **Vostok**/**Vokshod re-entry modules, and so forth.
+- Fixes for **bad MH parts**: **Monopropellant** in the Mk2 Command Pod, proper **internal temperature limits** for Vostok/Vokshod re-entry modules, and so forth.
 - Part rebalances, including: **Longer Struts & Ducts**, free **Clamps** that provide umbilical EC, and nerfed **reaction wheels**.
 - Audited and re-organized manufacturers for **all** parts in the game (and some mods), including **new agents**!
 - Restored access to various soft-deprecated parts, such as the **Mallet** and **Striker** SRBs from ReStock+, **Tethys** from Near Future Spacecraft, old versions of **Cryogenic Engines** and **NFLV** engines, so on and so forth.
