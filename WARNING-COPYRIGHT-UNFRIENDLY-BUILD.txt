@@ -13,6 +13,7 @@ specifically all of the following items are affected:
 - Loading screens from Kcalbeloh System
 
 - Mk1-2 pod from Ven's Stock Revamp
+- Cold gas jet sound from RCS Sound Effects
 
 - Configs inspired by (but not copied directly off of) various sources
 - (Credits for these are provided in their individual, respective files)
