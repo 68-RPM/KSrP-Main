@@ -14,6 +14,7 @@ specifically all of the following items are affected:
 
 - Mk1-2 pod from Ven's Stock Revamp
 - Cold gas jet sound from RCS Sound Effects
+- Sorlon (planet) & textures from Renaissance Compilation
 
 - Configs inspired by (but not copied directly off of) various sources
 - (Credits for these are provided in their individual, respective files)
