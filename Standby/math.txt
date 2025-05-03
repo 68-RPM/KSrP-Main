@@ -259,16 +259,27 @@ New Radii {
 	Suyulo = 2737894.7
 }
 
+Orbital parameters are recieved from the TDB time 2455737.3618056
+which matches the exact reveal date/time of Kerbal Space Program
+they are rounded to four decimal points as in the mod Kcalbeloh
+
+A km to AU
+round( * 13599840256)
+
 New Semi-Major Axis {
-	Moho = 5264483611.26852608
-	Eve = 9837199516.05458944
-	Kerbin = 13599841751.98242816
-	Duna = 20721564020.08795136
-	Dres = 37603558307.84
-	Jool = 70764905729.97933056
-	Salenne = 129702632862.23880192
-	Oron = 260998123758.73476608
-	Suyulo = 408933099991.49785088
+	Moho = 5264473826
+	Eve = 9837182641
+	Kerbin = 13602689733
+	Duna = 20722783435
+	Dres = 37618300888
+	Jool = 70771085584
+	Salenne = 129446068271
+	Oron = 262056012388
+	Suyulo = 410601044304
+	Belson = 532654176022
 }
+
+round(x,-4) inner
+round(x,-5) outer
 
 round(weighmean([st,rl],[phi,(1/phi)]),-1)
