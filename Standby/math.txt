@@ -240,6 +240,12 @@ Ratios (Kerbin) {
 		29/6
 }
 
+1.481230395827817E-02 EC
+2.434843263724124E-04 EC
+
+1.129465743588900E+00 IN
+2.789363053319033E+00 IN
+
 Constants {
 	Kerbal AU
 		13599840256
@@ -283,3 +289,7 @@ round(x,-4) inner
 round(x,-5) outer
 
 round(weighmean([st,rl],[phi,(1/phi)]),-1)
+
+
+Roche limit:
+2.4 * R1 * cbrt(D1/D2)
