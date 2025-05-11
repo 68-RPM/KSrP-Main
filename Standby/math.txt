@@ -293,3 +293,6 @@ round(weighmean([st,rl],[phi,(1/phi)]),-1)
 
 Roche limit:
 2.4 * R1 * cbrt(D1/D2)
+
+
+ogRot + (nuLong + nuArg + nuMean) - (ogLong + ogArg + ogMean)
