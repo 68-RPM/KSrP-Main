@@ -3,15 +3,7 @@ THIS IS A DEVELOPMENT BUILD OF KSrP PUSHED TO GIT FOR BACKUP PURPOSES.
 It redistributes potentially license-unfriendly material,
 specifically all of the following items are affected:
 
-- Some loading strings originate from Astronomer's Visual Pack
-- Some loading strings originate from Galileo's Planet Pack
-- Some loading strings originate from JNSQ
-- Some loading strings originate from Kcalbeloh System
-- Some loading strings originate from Edge of Eternity
-
-- Loading screens from Astronomer's Visual Pack
 - Loading screens from Kcalbeloh System
-
 - Mk1-2 pod from Ven's Stock Revamp
 - Cold gas jet sound from RCS Sound Effects
 

@@ -1,5 +1,5 @@
-# KSrP-Main
-###### The primary, 'core' body of Module Manager patches for the KSrP Project
+![reprogram](https://files.catbox.moe/0a8492.png)
+###### KSrP-Main | The primary, 'core' body of Module Manager patches for the KSrP Project
 
 Welcome to **Kerbal Space Re:Program**, an overhaul for Kerbal Space Program.
 
