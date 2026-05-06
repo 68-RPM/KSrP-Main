@@ -1,102 +1,65 @@
 ![reprogram](https://files.catbox.moe/0a8492.png)
-###### KSrP-Main | The primary, 'core' body of Module Manager patches for the KSrP Project
 
-Welcome to **Kerbal Space Re:Program**, an overhaul for Kerbal Space Program.
+## Welcome to *Kerbal Space Re:Program*, an overhaul for Kerbal Space Program!
 
-This project aims to be a semi-monolithic, definitive *Vanilla+* compendium for KSP, synchronizing (and syncretizing) selections from the thirteen-year-and-counting history of Kerbal Space Program's mods and game balance. It won't be entirely modular and it *certainly* won't be compatible with a lot of extraneous bolt-ons and such by the time it is finished, but should provide a comprehensive, enjoyable experience inside of which part mods should behave nicely.
+This project aims to be a semi-monolithic, definitive ‘*Vanilla-plus*’ Module Manager pack for KSP, akin to a fan edit or director cut of a movie. It curates and compiles a cohesive compendium (alliteration is fun!) of bug fixes, features, and otherwise from the thirteen-and-counting years of Kerbal Space Program's mods and updates. The intended end goal is to have a ‘complete’ KSP experience, with more things to do in the KSP solar system and a (slightly) less simplified model of spaceflight - as well as some unfulfilled ideas and/or promises from KSP1 and KSP2.
 
-Out of the box, the main module of KSrP contains:
-- A global **2.56× rescale** for the stock Solar System, resulting in **slightly higher difficulty**, yes, but also **less overpowered parts**, prettier views from low orbit, and longer days.
-- Rewritten titles and descriptions for **hundreds** of parts!
-- **New resource names!** `Liquid Fuel`, `Oxidizer`, and `Monopropellant` are now `Kerosene`, `LqdOxygen`, and `Hydrazine`.
-- Fixes for **bad MH parts**: **Monopropellant** in the Mk2 Command Pod, proper **internal temperature limits** for Vostok/Vokshod re-entry modules, and so forth.
-- Part rebalances, including: **Longer Struts & Ducts**, free **Clamps** that provide umbilical EC, and nerfed **reaction wheels**.
-- Audited and re-organized manufacturers for **all** parts in the game (and some mods), including **new agents**!
-- Restored access to various soft-deprecated parts, such as the **Mallet** and **Striker** SRBs from ReStock+, **Tethys** from Near Future Spacecraft, old versions of **Cryogenic Engines** and **NFLV** engines, so on and so forth.
-- ***Deleted*** **bad parts**: **Deprecated parts**, **Munar Excursion Module**, **RÖKEA flags**, **Starshot** launchers, & ***Making History*** **panels** have all gone in the bin.
-- **Mün** with a ü (okay, that's not really headline worthy, but `:3`)
+The ReProgram project began in March of 2025, though it originates from my personal GameData edits in 2023 or so. Although intended as a monolithic modpack, the realities of development and the large number of part mods I wish to use (personally, not as part of ReProgram) have made the pack into a modular system. A brief description of each module may be read about below.
 
+---
 
-And in the future, the following is planned...
-- A complete ***Kronometer*** **calendar** with original months (and maybe week-days!?)
-- Rewritten **Tracking Station descriptions** for all bodies, both stock and mods:
-- **LF/O fuel switches** on ordinarily cryo-exclusive tanks & **Monopropellant fuel switches** on LF/O tanks.
-- Swappable **engine bells** that have difference performance levels or consume different fuels, derived from sources such as;
-  - ReStock+
-  - Eve Optimized Engines
-  - Cryogenic Engines
-  - Kerbal Atomics
-  - Vector Repurposed
-- An audit of *all* **Stock Solar System** orbits; **No 0-inclines** or **0-eccentricites**, a global shift onto the **Invariable Plane**, **Retrobop** from Principia, among other changes!
-- Restock-alikes of the old **Mk1 Cockpit**, **Command Pod Mk1**, and **Mk1-2 Command Pod**
-- A fully configurable **Settings CFG** to toggle the mod's features however you want
-- A **de-bloated fork of Navball Texture Changer** that introduces **Orbit** and **IVA** variations on the stock NavBall
-- A complete set of **Kerbal Konstructs launch sites** (or maybe stock PQS cities?!) to replace the very dated Kerbin-Side
-- Further **part balance tweaks**
-- Et cetera...
+- **MODULE 00** (‘Base’)
+   - *Kerbal Space Re:Program* basic infrastructure and gameplay patches. **Dependency for all other modules!**
+   - Requires `KSPCommunityFixes`, `ReStock`, `ReStockPlus`, and `Kopernicus`, among others.
 
-Revisit the Stock experience, now the best it has ever been! `(Disclaimer: Statement is not objective.)`
+- **MODULE 01** (‘Core’)
+   - *KSrP* basic part additions. Requires `ConformalDecals`, `NearFutureLaunchVehicles`, `NearFutureExploration`, & `NearFutureSpacecraft`
+   - Also expands on Module 00's gameplay tweaks and bugfixes with `KerbalEngineerRedux`, `PreciseNode`, & `KerbalAlarmClock` / `StockAlarmClockDisabler`
 
-## Hard Depencencies
->*The following mods are required to play KSrP, as the various Module Manager patches which this mod utilizes to function will NOT function without them!*
-- **KSP: Making History** (SquadExpansion) *by Squad*
-- **Module Manager** *by Ialdabaoth, Sarbian et al.*
-- **KSP Community Fixes** *by Gotmachine et al.*
-- **B9 Part Switch** *by Blowfishpro et al.*
-- **Kopernicus** *by BryceSchroeder, Teknoman77 et al.*
-- **Sigma Dimensions** *by Sigma88, R-T-B*
-- **ReStock** & **Restock+** *by Nertea et al.*
+- **MODULE 02** (‘More’)
+   - *‘Specifying Impulse’* expansion. Although it is not required, ***KSrP* is considered incomplete without this module!**
+   - Consists of the entire *Post-Kerbin* (Nertea) suite apart from Aeronautics and Mk4 Spaceplanes four choice parts from `SterlingSystemsThermalsExotic`, and a port of the Daedalus engine from *KSP Interstellar*.
+   - As a bonus, you get the extra space suits from *Historical Kerbal Suits* (`Benjee10Suits`)
 
-## Soft Dependencies
->*Not load-bearing, but still highly recommended. KSrP supports or otherwise uses these mods in various ways, and thus they will additionally appear as either A) dependencies or B) recommendations if/when KSrP gets a CKAN release.*
-- **KSP: Breaking Ground** (SquadExpansion/Serenity) *by Squad*
-- **Stock Planet Revamp** *by Techo*
-- **Kerbol System Expansion** *by Pastelmari*
-- **Kcalbeloh System** *by JCyuan06*
-- **Scatterer**, **Stock Volumetric Clouds**, & **Deferred** *by Blackrack*
-- **Post-Kerbin Mining Corporation Suite** *by Nertea;*
-  - **Near Future Exploration**
-  - **Near Future Launch Vehicles**
-  - **Near Future Solar**
-  - **Near Future Construction**
-  - **Near Future Electrical**
-  - **Near Future Propulsion**
-  - **Near Future Spacecraft**
-  - **Kerbal Atomics**
-  - **Heat Control**
-  - **Cryogenic Engines**
-    - **CryoEngines Extensions** *by Kavaeric*
-  - **Far Future Technologies**
-  - **Stockalike Station Parts Expansion Redux**
+- **MODULE 03** (‘Moar’)
+   - *‘Dreaming Big’* expansion.
+   - Consists of `RasterPropMonitor` support, and RPM-dependent mods such as `ALCOR` or `B9`.
+   - Parts focused on Speculative Fiction / ‘Hard Science Fiction’ media such as *Coriolis Space Systems*, *The Martian for KSP*, or Benjee10's upcoming *Endurance* remake / *Interstellar* mod are compiled in this pack as well.
 
-## Hard Incompatibilities 
->*Due to the way in which KSrP operates, some mods will be, by nature, inherently incompatible with KsRP, either because they would cause game-breaking conflicts, would behave poorly with KSrP, or would simply be redundant and therefore obsolete and/or bloat. You may review the list of mods affected below;
-- Playing the game at **Stock (1x) scale**
-- **Parallax** *(not to be confused with Parallax Continued)*
-- **Realism Overhaul** and/or **Realistic Progression One**
-- **Ferram Aerospace Research**
-- **RealFuels**
-- **RealChutes**
-- **Deadly Re-entry**
-- **Principia**
-- **Kerbalism**
-- **KSP Interstellar Extended**
-- **Classic Stock Resources**
-- ***Almost*** **all other** **Module Manager re-balances, but especially**:
-  - **Skyhawk Science System**
-  - **Free Launch Clamps**
-  - **Weaker Heat Shields**
-  - **Improved Ablator**
-- **All planet packs not listed in the Soft Dependencies, but especially:**
-  - **Outer Planets Mod** and **OPX**
-  - **Alternis Kerbol Rekerjiggered**
-  - **Beyond Home**
-  - **Precursors**
-  - **Other Worlds**
-  - **Galileo's Planet Pack**
-  - **Grannus Expansion Pack**
-  - **JNSQ**
-  - **Sol** / **KsRSS** / **Real Solar System**
-  - **G\*l\*x\*\*s Unl\*m\*t\*d** 🤢
-  - Planet edits such as **Duna Restoration Project**, **Habitable Gilly**, or **Scott Munley**
-  ###### You should check some of these out btw they're all pretty cool (except for Gee-Eww)
+- **MODULE 04** (‘NASA’)
+   - The *‘Committee on Aeronautics and Space Advancement’* DLC. (‘DLC’ as in what that originally meant!)
+   - DLC parts are typically more bespoke / complex, so they are handled by separate sub-categories, which call them ‘Model Kit’ parts! (as opposed to Stock and Nertea parts, which would be ‘Building Blocks’.)
+   - The CASA module compiles stockalike part mods for:
+       - **NASA** (United States)
+	   - **ULA** (including **Boeing**, **Lockheed**)
+	   - Other **US Federal Contractors** (such as **Rockwell**, **Orbital**, **Kistler**)
+	   - **JAXA** / **NASDA** (Japan)
+
+- **MODULE 05** (‘BRICS’)
+   - The *‘Council of Cosmic Partnership’* DLC.
+   - The CCP module compiles stockalike part mods for:
+   - This optional pack compiles mods which introduce stockalike 
+       - The **USSR** / **Roscosmos** (Russia)
+       - **ISRO** (India)
+       - **CNSA** (China)
+       - **AEB** (Brazil)
+
+- **MODULE 06** (‘ESA’)
+   - The *‘Aerospace Development Union’* DLC.
+   - The ADU module compiles stockalike part mods for:
+       - **ESA** (European Union) (including **CSA** [Canada])
+       - **UKSA** / the **MoD** (United Kingdom)
+
+- **MODULE 07** (‘Corporate’)
+   - The *‘Space Exploitation Trust’* DLC.
+   - The SET pack compiles stockalike part mods for:
+       - **Billionaire Space Race** competitors (SpaceX, Blue Origin)
+	   - Smaller **launch service providers** (Rocket Lab, Astra, Firefly, et cetera)
+
+- **MODULE FX** (‘Effects’)
+   - Audiovisual components of the ReProgram mod pack, such as `Waterfall`, `Firefly`, and `RocketSoundEnhancement`.
+   - Note the CKAN suggestions for `EnvironmentalVisualEnhancements` and `Scatterer`. The preferred version of these mods is, despite ourselves, *not* CKAN, and that is actually a gesture to go seek out [Blackrack's Early Access build](https://www.patreon.com/blackrack).
+
+- **MODULE KP** (‘Kopernicus Pack’)
+   - Planet mod expansion for the ReProgram mod pack.
+   - This will consist of extant planet mods, altered with Module Manager and ReStock. More info TBA

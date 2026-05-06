@@ -1,0 +1,25 @@
+depends:
+  - name: AvalanchePlumes
+  - name: BetterRCS
+  - name: DistantObject
+  - name: Firefly
+  - name: RestockWaterfallExpansion
+  - name: RocketSoundEnhancement
+  - name: Shaddy
+  - name: TUFX
+
+recommends:
+  - name: ParallaxContinued
+  - name: Resurfaced
+  - name: TexturesUnlimited
+  - name: Window
+
+suggests:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
+
+conflicts:
+  - name: AstronomersVisualPack
+  - name: Spectra
+  - name: StockVisualEnhancements
+  - name: WindowShineTR

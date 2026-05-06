@@ -1,34 +1,35 @@
 depends:
   - name: KSRP_01
-  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: BodyDragfix
   - name: Deferred
   - name: KSPCommunityFixes
-  - name: BodyDragfix
   - name: KSPCommunityPartModules
+  - name: Kopernicus
+  - name: ManeuverNodeEvolved
+  - name: ModuleManager
+  - name: PAWRangeBuff
   - name: ReStock
   - name: ReStockPlus
-  - name: VABOrganizer
-  - name: B9PartSwitch
-  - name: Kopernicus
   - name: SigmaDimensions
-  - name: PAWRangeBuff
   - name: TrackingStationEvolved
+  - name: VABOrganizer
 
 suggests:
-  - name: EnvironmentalVisualEnhancements
-  - name: Scatterer
-  - name: ParallaxContinued
   - name: BurstPQS
+  - name: KSRP_FX
 
 conflicts:
   - name: AlmostFreeLaunchClamps
+  - name: JNSQ
+  - name: PlanetShine
+  - name: RP-1
+  - name: RP-1-ExpressInstall
+  - name: RP-0
   - name: RationalHydroDynamics
-  - name: StageableRCS
-  - name: StockAutoCutDrogues
-  - name: NearFutureSpacecraft-OrbitalLFOEngines
   - name: RealChute
   - name: RealFuels
+  - name: RealSolarSystem
   - name: RealismOverhaul
-  - name: RP-1-ExpressInstall
-  - name: RP-1
-  - name: RP-0
+  - name: StageableRCS
+  - name: StockAutoCutDrogues

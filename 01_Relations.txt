@@ -1,15 +1,15 @@
 depends:
   - name: KSRP_00
+  - name: BetterBurnTime
   - name: ConformalDecals
+  - name: KerbalAlarmClock
+  - name: KerbalEngineerRedux
   - name: NearFutureExploration
   - name: NearFutureLaunchVehicles
   - name: NearFutureSpacecraft
-  - name: BetterBurnTime
-  - name: KerbalEngineerRedux
-  - name: Kerbal Alarm Clock
-  - name: StockAlarmClockDisabler
-  - name: ManeuverNodeEvolved
   - name: PreciseNode
+  - name: StockAlarmClockDisabler
 
 conflicts:
+  - name: NearFutureSpacecraft-OrbitalLFOEngines
   - name: PreciseManeuver

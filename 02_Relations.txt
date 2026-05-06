@@ -1,31 +1,32 @@
 depends:
   - name: KSRP_00
   - name: KSRP_01
-  - name: SterlingSystemsThermalsExotic
-  - name: SystemHeat
-  - name: HeatControl
-  - name: SpaceDust
-  - name: CryoTanks
+  - name: Benjee10Suits
   - name: CryoEngines
   - name: CryoEnginesExtensions
-  - name: NearFutureConstruction
-  - name: NearFutureSolar
-  - name: NearFutureElectrical
-  - name: NearFuturePropulsion
+  - name: CryoTanks
+  - name: FarFutureTechnologies
+  - name: HeatControl
   - name: KerbalAtomics
   - name: KerbalAtomics-NTRModSupport
+  - name: NearFutureConstruction
+  - name: NearFutureElectrical
+  - name: NearFuturePropulsion
+  - name: NearFutureSolar
+  - name: SpaceDust
   - name: StationPartsExpansionRedux
   - name: StationPartsExpansionRedux-IVAs
-  - name: FarFutureTechnologies
-  - name: NearFutureSpacecraft
-  - name: Benjee10Suits
+  - name: SterlingSystemsThermalsExotic
+  - name: SystemHeat
 
 recommends:
   - name: HangerExtenderExtended
 
 conflicts:
-  - name: KSPInterstellarExtended
-  - name: InterstellarFuelSwitchCore
-  - name: InterstellarFuelSwitch
   - name: CryoEngines-LFO
+  - name: InterstellarFuelSwitch
+  - name: InterstellarFuelSwitchCore
+  - name: KSPInterstellarExtended
   - name: KerbalAtomics-NTRsUseLF
+  - name: PreciseManeuver
+  - name: VABOrganizer-Jade
