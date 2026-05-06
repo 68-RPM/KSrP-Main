@@ -6,4 +6,10 @@ depends:
   - name: NearFutureSpacecraft
   - name: BetterBurnTime
   - name: KerbalEngineerRedux
-  - name: Benjee10Suits
+  - name: Kerbal Alarm Clock
+  - name: StockAlarmClockDisabler
+  - name: ManeuverNodeEvolved
+  - name: PreciseNode
+
+conflicts:
+  - name: PreciseManeuver

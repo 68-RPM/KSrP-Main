@@ -18,6 +18,7 @@ depends:
   - name: StationPartsExpansionRedux-IVAs
   - name: FarFutureTechnologies
   - name: NearFutureSpacecraft
+  - name: Benjee10Suits
 
 recommends:
   - name: HangerExtenderExtended
