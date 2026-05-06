@@ -1,0 +1,9 @@
+depends:
+  - name: KSRP_00
+  - name: ConformalDecals
+  - name: NearFutureExploration
+  - name: NearFutureLaunchVehicles
+  - name: NearFutureSpacecraft
+  - name: BetterBurnTime
+  - name: KerbalEngineerRedux
+  - name: Benjee10Suits
