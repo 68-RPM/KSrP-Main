@@ -3,5 +3,25 @@ NearFutureElectrical/Legacy/RTG/
 
 SystemHeat/Assets/systemheat-sink-1.mu
 
+SterlingSystems/Thermals/Exchangers/
+SterlingSystems/Thermals/RadiatorsFlat/
+SterlingSystems/Thermals/RadiatorsRoll/
+SterlingSystems/Thermals/RadiatorsWrap/
+SterlingSystems/Thermals/Shields/Adap*
+SterlingSystems/Thermals/Shields/Wrap*
+SterlingSystems/Thermals/Shields/cockpit*
+SterlingSystems/Thermals/Shields/wrap*
+SterlingSystems/Thermals/Sinks/
+SterlingSystems/ThermalsExotic/Radiators/LFRSta60.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta60FilmD.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta90.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta90FilmD.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta120.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta120FilmD.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta150.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta150FilmD.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta180.mu
+SterlingSystems/ThermalsExotic/Radiators/LFRSta180FilmD.mu
+
 SterlingSystems/Agency/Decals/
 SterlingSystems/Agency/Flags/
