@@ -15,9 +15,11 @@ depends:
   - name: TrackingStationEvolved
   - name: VABOrganizer
 
+recommends:
+  - name: KSRP_FX
+
 suggests:
   - name: BurstPQS
-  - name: KSRP_FX
 
 conflicts:
   - name: AlmostFreeLaunchClamps

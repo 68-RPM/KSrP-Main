@@ -1,9 +1,10 @@
-depends:
-  - name: KcalbelohSystem
+depends:	
   - name: KcalbelohSystem-Textures-4k
-  - name: KerbolSystemExpansion
 
 conflicts:
+  - name: KcalbelohSystem
   - name: KcalbelohSystem-Textures-8k
+  - name: KerbolSystemExpansion
   - name: OuterPlanetsMod
+  - name: Parallax
   - name: TechosStockPlanetRevamp

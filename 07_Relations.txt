@@ -1,3 +1,12 @@
 depends:
+  - name: KSRP_00
+  - name: KSRP_01
+  - name: Luciole
+  - name: ProvenanceAerospace
+  - name: SpaceXLegs
+  - name: StarshipExpansionProject
+  - name: TundraExploration
+  - name: ZieglerLaunchSystem
 
-conflicts:
+recommends:
+  - name: KiwiOrbitalDesignsServices

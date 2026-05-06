@@ -1,3 +1,6 @@
 depends:
-
-conflicts:
+  - name: KSRP_00
+  - name: KSRP_01
+  - name: Knes
+  - name: CRE
+  - name: CommonwealthAeronauticsBlueSteel

@@ -1,3 +1,9 @@
 depends:
-
-conflicts:
+  - name: KSRP_00
+  - name: KSRP_01
+  - name: NewTantares
+  - name: NewTantaresLV
+  - name: TantaresSAF
+  - name: TantaresSP
+  - name: EisenhowerAstronautics
+  - name: ChayrolDesignOrg

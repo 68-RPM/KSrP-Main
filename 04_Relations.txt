@@ -1,3 +1,24 @@
 depends:
+  - name: KSRP_00
+  - name: KSRP_01
+  - name: ArtemisConstructionKit
+  - name: AsburyWesternStarsIndustries
+  - name: BluedogDB
+  - name: BoringCrewServices
+  - name: CompletelyNonAggressiveRocketry
+  - name: DiamondAerospaceExplorationAgencyDAXA
+  - name: Fuji
+  - name: GemstoneLV
+  - name: HabTech2
+  - name: Mk-33
+  - name: PlanetsideExplorationTechnologies
+  - name: RocketMotorMenagerie
+  - name: ShuttleOrbiterConstructionKit
+  - name: SpecialDelivery
+  - name: TundraTechnologies
+  - name: X-20-Moroz
+
+suggests:
+  - name: KiwiOrbitalDesignsServices
 
 conflicts:

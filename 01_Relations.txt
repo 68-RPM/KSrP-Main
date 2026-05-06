@@ -10,6 +10,9 @@ depends:
   - name: PreciseNode
   - name: StockAlarmClockDisabler
 
+recommends
+  - name: KSRP_02
+
 conflicts:
   - name: NearFutureSpacecraft-OrbitalLFOEngines
   - name: PreciseManeuver
