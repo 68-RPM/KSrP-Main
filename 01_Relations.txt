@@ -16,3 +16,5 @@ recommends
 conflicts:
   - name: NearFutureSpacecraft-OrbitalLFOEngines
   - name: PreciseManeuver
+  - name: SixCrewScienceLab
+  - name: SixSeatMk3cockpit

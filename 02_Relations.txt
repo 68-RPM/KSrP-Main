@@ -5,6 +5,7 @@ depends:
   - name: CryoEngines
   - name: CryoEnginesExtensions
   - name: CryoTanks
+  - name: DMagicScienceAnimate
   - name: FarFutureTechnologies
   - name: HeatControl
   - name: KerbalAtomics
@@ -23,7 +24,10 @@ recommends:
   - name: HangerExtenderExtended
 
 conflicts:
+  - name: ChemicalCore
+  - name: ChemicalPropulsion
   - name: CryoEngines-LFO
+  - name: Ignition
   - name: InterstellarFuelSwitch
   - name: InterstellarFuelSwitchCore
   - name: KSPInterstellarExtended
