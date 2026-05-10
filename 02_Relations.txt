@@ -2,9 +2,7 @@ depends:
   - name: KSRP_00
   - name: KSRP_01
   - name: Benjee10Suits
-  - name: CryoEngines
   - name: CryoEnginesExtensions
-  - name: CryoTanks
   - name: DMagicScienceAnimate
   - name: FarFutureTechnologies
   - name: HeatControl
@@ -24,13 +22,6 @@ recommends:
   - name: HangerExtenderExtended
 
 conflicts:
-  - name: ChemicalCore
-  - name: ChemicalPropulsion
-  - name: CryoEngines-LFO
-  - name: Ignition
-  - name: InterstellarFuelSwitch
-  - name: InterstellarFuelSwitchCore
-  - name: KSPInterstellarExtended
   - name: KerbalAtomics-NTRsUseLF
   - name: PreciseManeuver
   - name: VABOrganizer-Jade
