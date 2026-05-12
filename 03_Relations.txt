@@ -7,14 +7,20 @@ depends:
   - name: B9
   - name: B9AerospaceHX
   - name: B9AerospaceLegacy
+  - name: BetterBurnTime
   - name: CoriolisSpaceSystems
   - name: DE-IVAExtension
   - name: DunaDirect
   - name: Interkosmos
+  - name: KerbalAlarmClock
+  - name: MechJeb2
   - name: PeriapsisMotors
+  - name: PreciseNode
   - name: RasterPropMonitor
   - name: Reviva
   - name: SimpleAdjustableFairings-KWRocketry
+  - name: SimpleScramjets
+  - name: StockAlarmClockDisabler
   - name: TheMartianforKSP
   - name: UniversalStorage2
   - name: VexarpIVA

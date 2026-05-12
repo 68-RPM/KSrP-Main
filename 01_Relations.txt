@@ -1,16 +1,12 @@
 depends:
   - name: KSRP_00
-  - name: BetterBurnTime
   - name: ConformalDecals
   - name: CryoEngines
   - name: CryoTanks
-  - name: KerbalAlarmClock
   - name: KerbalEngineerRedux
   - name: NearFutureExploration
   - name: NearFutureLaunchVehicles
   - name: NearFutureSpacecraft
-  - name: PreciseNode
-  - name: StockAlarmClockDisabler
 
 recommends
   - name: KSRP_02
@@ -19,11 +15,14 @@ conflicts:
   - name: ChemicalCore
   - name: ChemicalPropulsion
   - name: CryoEngines-LFO
+  - name: CryoFutureReQuoted
   - name: Ignition
   - name: InterstellarFuelSwitch
   - name: InterstellarFuelSwitchCore
   - name: KSPInterstellarExtended
+  - name: MechJebForAll
   - name: NearFutureSpacecraft-OrbitalLFOEngines
+  - name: OldPartsRevived
   - name: PreciseManeuver
   - name: SixCrewScienceLab
   - name: SixSeatMk3cockpit

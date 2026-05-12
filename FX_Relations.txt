@@ -1,5 +1,6 @@
 depends:
   - name: AvalanchePlumes
+  - name: BAMCont
   - name: BetterRCS
   - name: DistantObject
   - name: Firefly
@@ -7,8 +8,8 @@ depends:
   - name: Resurfaced
   - name: RocketSoundEnhancement
   - name: Shaddy
-  - name: TUFX
   - name: TexturesUnlimited
+  - name: TUFX
   - name: Window
 
 recommends:

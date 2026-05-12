@@ -6,4 +6,5 @@ depends:
   - name: TantaresSAF
   - name: TantaresSP
   - name: EisenhowerAstronautics
+  - name: KOSMOS-SSPP
   - name: ChayrolDesignOrg

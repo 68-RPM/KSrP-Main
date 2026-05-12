@@ -10,6 +10,7 @@ depends:
   - name: KerbalAtomics-NTRModSupport
   - name: NearFutureConstruction
   - name: NearFutureElectrical
+  - name: NearFutureElectrical-DecayingRTGs
   - name: NearFuturePropulsion
   - name: NearFutureSolar
   - name: SpaceDust
@@ -23,5 +24,6 @@ recommends:
 
 conflicts:
   - name: KerbalAtomics-NTRsUseLF
+  - name: NearFutureElectrical-DecayingRTGs
   - name: PreciseManeuver
   - name: VABOrganizer-Jade

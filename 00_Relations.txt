@@ -5,6 +5,7 @@ depends:
   - name: Deferred
   - name: KSPCommunityFixes
   - name: KSPCommunityPartModules
+  - name: KerbalJointReinforcementContinued
   - name: Kopernicus
   - name: ManeuverNodeEvolved
   - name: ModuleManager
@@ -23,15 +24,27 @@ suggests:
 
 conflicts:
   - name: AlmostFreeLaunchClamps
+  - name: FairingFix
   - name: JNSQ
+  - name: KerbalWitchery
+  - name: KerbealisticDocking
+  - name: KiwiTechTree
+  - name: MandatoryRCS
+  - name: NomoreOPs
+  - name: OCCULT
   - name: PlanetShine
   - name: RP-1
   - name: RP-1-ExpressInstall
+  - name: RP-1FullThrust
   - name: RP-0
   - name: RationalHydroDynamics
   - name: RealChute
   - name: RealFuels
   - name: RealSolarSystem
   - name: RealismOverhaul
+  - name: RealisticPowerDraw
+  - name: SkyhawkScienceSystem
   - name: StageableRCS
   - name: StockAutoCutDrogues
+  - name: TheMartian
+  - name: TributetoHarversteR
