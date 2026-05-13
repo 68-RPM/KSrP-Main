@@ -1,6 +1,7 @@
 depends:
   - name: KSRP_01
   - name: B9PartSwitch
+  - name: BetterTimeWarpCont
   - name: BodyDragfix
   - name: Deferred
   - name: KSPCommunityFixes

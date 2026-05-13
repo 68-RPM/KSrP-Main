@@ -18,6 +18,12 @@ depends:
   - name: StationPartsExpansionRedux-IVAs
   - name: SterlingSystemsThermalsExotic
   - name: SystemHeat
+  - name: SystemHeat-Converters
+  - name: SystemHeat-CryoTanks
+  - name: SystemHeat-FissionEngines
+  - name: SystemHeat-FissionReactors
+  - name: SystemHeat-Harvesters
+  - name: SystemHeat-IonEngines
 
 recommends:
   - name: HangerExtenderExtended

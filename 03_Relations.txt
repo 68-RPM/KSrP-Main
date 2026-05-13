@@ -13,6 +13,7 @@ depends:
   - name: DunaDirect
   - name: Interkosmos
   - name: KerbalAlarmClock
+  - name: KerbalEngineerRedux
   - name: MechJeb2
   - name: PeriapsisMotors
   - name: PreciseNode

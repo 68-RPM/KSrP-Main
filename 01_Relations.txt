@@ -3,7 +3,6 @@ depends:
   - name: ConformalDecals
   - name: CryoEngines
   - name: CryoTanks
-  - name: KerbalEngineerRedux
   - name: NearFutureExploration
   - name: NearFutureLaunchVehicles
   - name: NearFutureSpacecraft
