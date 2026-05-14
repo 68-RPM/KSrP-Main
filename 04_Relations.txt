@@ -1,5 +1,4 @@
 depends:
-  - name: KSRP_00
   - name: KSRP_01
   - name: ArtemisConstructionKit
   - name: AsburyWesternStarsIndustries
@@ -14,7 +13,14 @@ depends:
   - name: PlanetsideExplorationTechnologies
   - name: RocketMotorMenagerie
   - name: ShuttleOrbiterConstructionKit
+  - name: ShuttlePayloadDeliverySystems
+  - name: SpaceShuttleAcessories
   - name: SpecialDelivery
+  - name: ShuttlePathfinderOrbiterConstructionKit
+  - name: SSAUCE
+  - name: SSAUCE-Extras
+  - name: SSOUPP
+  - name: StarstroSpaceSystems
   - name: TundraTechnologies
   - name: X-20-Moroz
 

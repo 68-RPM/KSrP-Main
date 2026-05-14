@@ -1,35 +1,37 @@
 depends:
-  - name: KSRP_00
   - name: KSRP_01
   - name: Benjee10Suits
+  - name: CryoTanks
+  - name: CryoEngines
   - name: CryoEnginesExtensions
   - name: DMagicScienceAnimate
   - name: FarFutureTechnologies
+  - name: HangerExtenderExtended
   - name: HeatControl
   - name: KerbalAtomics
   - name: KerbalAtomics-NTRModSupport
   - name: NearFutureConstruction
   - name: NearFutureElectrical
-  - name: NearFutureElectrical-DecayingRTGs
+  - name: NearFutureExploration
+  - name: NearFutureLaunchVehicles
   - name: NearFuturePropulsion
   - name: NearFutureSolar
+  - name: NearFutureSpacecraft
   - name: SpaceDust
   - name: StationPartsExpansionRedux
   - name: StationPartsExpansionRedux-IVAs
-  - name: SterlingSystemsThermalsExotic
   - name: SystemHeat
-  - name: SystemHeat-Converters
   - name: SystemHeat-CryoTanks
+  - name: SystemHeat-IonEngines
   - name: SystemHeat-FissionEngines
   - name: SystemHeat-FissionReactors
+  - name: SystemHeat-Converters
   - name: SystemHeat-Harvesters
-  - name: SystemHeat-IonEngines
-
-recommends:
-  - name: HangerExtenderExtended
 
 conflicts:
-  - name: KerbalAtomics-NTRsUseLF
+  - name: CryoEngines-LFO
   - name: NearFutureElectrical-DecayingRTGs
-  - name: PreciseManeuver
-  - name: VABOrganizer-Jade
+  - name: NearFutureSpacecraft-OrbitalLFOEngines
+  - name: OldPartsRevived
+  - name: SixCrewScienceLab
+  - name: SixSeatMk3cockpit

@@ -1,51 +1,47 @@
 depends:
   - name: KSRP_01
   - name: B9PartSwitch
-  - name: BetterTimeWarpCont
-  - name: BodyDragfix
-  - name: Deferred
-  - name: KSPCommunityFixes
-  - name: KSPCommunityPartModules
-  - name: KerbalJointReinforcementContinued
+  - name: ClickThroughBlocker
+  - name: Harmony2
   - name: Kopernicus
-  - name: ManeuverNodeEvolved
+  - name: KSPCommunityPartModules
+  - name: KSPTextureLoader
+  - name: KSPBurst
+  - name: KSPBurst-Lite
+  - name: ModularFlightIntegrator
   - name: ModuleManager
-  - name: PAWRangeBuff
+  - name: NearFutureProps
   - name: ReStock
   - name: ReStockPlus
+  - name: Shabby
   - name: SigmaDimensions
-  - name: TrackingStationEvolved
+  - name: SpaceTuxLibrary
+  - name: ToolbarController
   - name: VABOrganizer
 
 recommends:
-  - name: KSRP_FX
+  - name: CommunityResourcePack
+  - name: CommunityTechTree
+  - name: DMagicScienceAnimate
+  - name: SimpleAdjustableFairings
 
 suggests:
-  - name: BurstPQS
+  - name: TexturesUnlimited
+  - name: Toolbar
 
 conflicts:
-  - name: AlmostFreeLaunchClamps
-  - name: FairingFix
-  - name: JNSQ
-  - name: KerbalWitchery
-  - name: KerbealisticDocking
-  - name: KiwiTechTree
-  - name: MandatoryRCS
-  - name: NomoreOPs
-  - name: OCCULT
-  - name: PlanetShine
-  - name: RP-1
-  - name: RP-1-ExpressInstall
-  - name: RP-1FullThrust
-  - name: RP-0
-  - name: RationalHydroDynamics
-  - name: RealChute
-  - name: RealFuels
-  - name: RealSolarSystem
+  - name: AllTweak
+  - name: ChemicalCore
+  - name: ChemicalPropulsion
+  - name: Ignition
+  - name: InterstellarFuelSwitch-Core
+  - name: KSPInterstellarExtended
+  - name: RationalResources
+  - name: ROLib
   - name: RealismOverhaul
-  - name: RealisticPowerDraw
-  - name: SkyhawkScienceSystem
-  - name: StageableRCS
-  - name: StockAutoCutDrogues
-  - name: TheMartian
-  - name: TributetoHarversteR
+  - name: RealFuels
+  - name: RP-0
+  - name: RP-1-ExpressInstall
+  - name: RP-1
+  - name: RP-1FullThrust
+  - name: VABOrganizer-Jade

@@ -1,27 +1,21 @@
 depends:
-  - name: KSRP_00
   - name: KSRP_01
-  - name: KSRP_02
-  - name: ALCOR
-  - name: ALCORIVAPatch
   - name: B9
   - name: B9AerospaceHX
   - name: B9AerospaceLegacy
-  - name: BetterBurnTime
+  - name: ComfortableLanding
   - name: CoriolisSpaceSystems
-  - name: DE-IVAExtension
   - name: DunaDirect
+  - name: GrondsMicrometeoriteShield
+  - name: InlineBallutes
   - name: Interkosmos
-  - name: KerbalAlarmClock
-  - name: KerbalEngineerRedux
-  - name: MechJeb2
+  - name: MarkIVSpaceplaneSystem
+  - name: MirrorShields
+  - name: NearFutureAeronautics
   - name: PeriapsisMotors
-  - name: PreciseNode
-  - name: RasterPropMonitor
-  - name: Reviva
+  - name: RecycledPartsAtomicAge
   - name: SimpleAdjustableFairings-KWRocketry
-  - name: SimpleScramjets
-  - name: StockAlarmClockDisabler
+  - name: SterlingSystemsThermalsExotic
   - name: TheMartianforKSP
   - name: UniversalStorage2
-  - name: VexarpIVA
+  - name: VenStockRevamp-NewParts

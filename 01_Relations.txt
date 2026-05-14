@@ -1,27 +1,53 @@
 depends:
   - name: KSRP_00
+  - name: BackgroundResourceProcessing
+  - name: BackgroundThrust
+  - name: BAMCont
+  - name: BodyDragFix
+  - name: BurstPQS
   - name: ConformalDecals
-  - name: CryoEngines
-  - name: CryoTanks
-  - name: NearFutureExploration
-  - name: NearFutureLaunchVehicles
-  - name: NearFutureSpacecraft
+  - name: Deferred
+  - name: DistantObject
+  - name: Firefly
+  - name: KerbalJointReinforcementContinued
+  - name: KSPCommunityFixes
+  - name: ManeuverNodeEvolved
+  - name: PatchedConicFixes
+  - name: PAWRangeBuff
+  - name: PersistentRotationUpgraded
+  - name: Resurfaced
+  - name: RocketSoundEnhancement
+  - name: Shaddy
+  - name: TrackingStationEvolved
+  - name: TUFX
+  - name: Waterfall
+  - name: Window
 
-recommends
+recommends:
   - name: KSRP_02
+  - name: ParallaxContinued
+
+suggests:
+  - name: EnvironmentalVisualEnhancements
+  - name: Scatterer
 
 conflicts:
-  - name: ChemicalCore
-  - name: ChemicalPropulsion
-  - name: CryoEngines-LFO
-  - name: CryoFutureReQuoted
-  - name: Ignition
-  - name: InterstellarFuelSwitch
-  - name: InterstellarFuelSwitchCore
-  - name: KSPInterstellarExtended
+  - name: AlmostFreeLaunchClamps
+  - name: AstronomersVisualPack
+  - name: FairingFix
+  - name: KerbalWitchery
+  - name: KerbealisticDocking
+  - name: MandatoryRCS
   - name: MechJebForAll
-  - name: NearFutureSpacecraft-OrbitalLFOEngines
-  - name: OldPartsRevived
-  - name: PreciseManeuver
-  - name: SixCrewScienceLab
-  - name: SixSeatMk3cockpit
+  - name: NomoreOPs
+  - name: OCCULT
+  - name: PlanetShine
+  - name: RationalHydroDynamics
+  - name: RealisticPowerDraw
+  - name: SkyhawkScienceSystem
+  - name: Spectra
+  - name: StageableRCS
+  - name: StockAutoCutDrogues
+  - name: StockVisualEnhancements
+  - name: SVE-Terrain
+  - name: WindowShineTR
