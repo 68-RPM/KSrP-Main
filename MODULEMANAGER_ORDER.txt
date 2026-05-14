@@ -1,0 +1,280 @@
+To get an idea of when and where to patch Kerbal Space Program, we need to examine a typical Module Manager log made without Re:Program installed.
+
+FIRST
+	(KSP Community Fixes)
+		1. Ladder parts are fixed to have their light not be stuck on.
+		2. Landing Gear parts are fixed to have their light not be stuck on.
+	(ReStock Plus)
+		3. The Oscar-B Fuel Tank is given a consistent propellant ratio with other tanks.
+Default
+	(Bluedog Design Bureau)
+		1. (Because we have SSPX) bluedog_EarlyLunarShelter_Telescope is patched to use SSPX's experiment.
+		ModuleBdbRelayInfo is applied to ALL Relay Antennae.
+		2. (Because of a bug in CEX) BDB engines are set up for Rocket Sound Enhancement
+		3. BDB parts check for Snacks (the NEEDS is on the module, not the patch)
+		4. (Because we have Space Dust) BDB parts are set up for Space Dust
+		5. (Because we have System Heat) BDB parts are set up for System Heat
+		6. A soft-deprecated part copies itself, interesting but not significant
+		7. The Mini-NUK-PD from Breaking Ground is buffed to produce 4 power instead of 1
+		8. Fairing paint jobs are applied to SAF fairings
+		9. (Because we have Deferred) the Wedgetail (X-15) part materials are updated
+		10. Thrust curves are applied to BDB solid rocket boosters
+		11. IVA passenger seats are updated for BDB parts
+		12. Various other BDB IVA updates
+	(Body Drag Fix)
+		13. The body lift multiplier of parts is divided by 6, so that fuel tanks aren't getting better glide ratios than lifting-body spacecraft.
+	(Community Tech Tree)
+		14. CTT's additions are added to the tech tree
+	(Conformal Decals)
+		15. Decal parts are set to apply no drag whatsoever
+		16. Community Resource Pack's Liquid Methane is given Volume = 1 for Procedural Wings compatibility. Most mechanics assume it is this, but Pwings assumes 5.
+	(Far Future Technologies)
+		17. Antimatter's density is increased 10000x (0.000000001 -> 0.00001)
+		18. Antimatter's cost is reduced 10x (100 -> 10)
+		19. Liquid Helium-3's cost is reduced (52.52 -> 5.50)
+	(Firefly)
+		20. (Because we have BDB) The BDB Apollo capsule and heat shield are made compatible with Firefly
+	(Heat Control)
+		21. (Because we have CTT) Heat Control's parts are applied to Community Tech Tree
+	(Kopernicus)
+		22. All tracking solar panels are set to use Kopernicus' system
+	(Near Future Construction)
+		23. (Because we have Community Resource Pack, CryoTanks) trusses with fuel tanks are set up to carry cryofuels
+	(Near Future Electrical)
+		24. Nuclear Reactors now count as power sources for contracts
+	(Near Future Exploration)
+		25. NFC's Xenon B9 tank mass is standardized (NFP does this too)
+	(Near Future Launch Vehicles)
+		26. The part "nflv-cluster-mount-lower-5-4" is patched, ModuleTestSubject is removed and a broken connection node is enabled (this is in the JP localization)
+		27. Making History parts that are redundant with NFLV are soft-deprecated
+		28. NFLV parts are added to an extra filter
+	(ReStock Plus)
+		29. (Because we have DMModuleScienceAnimateGeneric) Stock science parts are set up to use the namesake module
+	(Space Dust)
+		30. (Because we have Far Future Technologies) Antimatter, Liquid Helium-3, and Liquid Deuterium are made visible
+		31. (Because we have Near Future Propulsion) Argon Gas is made visible
+		32. (Because we have CryoTanks) Liquid Hydrogen is made visible
+	(Stockalike Station Parts Expansion Redux)
+		33. Cargo containers are set up based on what mods are installed
+		34. The new habitation parts are set up for contracts
+	(Sterling Systems)
+		35. Localization keys are turned into part keys, neat hack for appending descriptions
+		36. (Because we have Community Tech Tree) Part upgrades are created for the mirror shield
+		37. Stock parts are given additional stack nodes for heat shields
+		38. Radiators are set up with b9partswitch
+	(System Heat)
+		39. (Because we have the Resource Converters patch) flag ConverterPatchesInstalled is turned on
+		40. (Because we have the Resource Harvesters patch) flag HarvesterPatchesInstalled is turned on
+BEFORE, FOR, AFTER
+	(ReStock)
+		1. ReStock does its thing, revamping all parts
+		2. It then patches the soft-deprecated parts
+		3. Finally, it patches Making History parts
+	(ReStock Plus)
+		4. The Cheetah engine is given vernier gimbal
+		5. A decoupler is added to the launch escape system
+		6. A lower node is added to the Mammoth engine
+		7. (If BetterSRBs is not installed) Gimbal is added to stock SRBs
+		8. The launch clamp is made extendable
+		9. The center of mass is offset on MH panels to properly center the "centroid"
+	(Bluedog Design Bureau FOR)
+		10. Resource scanners are added to BDB science parts
+		11. (Because we have VAB Organizer) BDB parts are sorted in VABO
+		12. Some SRBs are set from 0.625 to 0.587 and from 0.9375 to 0.762
+		13. (Because we have Community Tech Tree) BDB parts are sorted in CTT, and are given part upgrades
+		14. Some satellites are added to the contract requests
+		15. Some parts are set up to be paintable with Textures Unlimited
+		16. (Because we have Waterfall) some engines are set up for Waterfall
+		17. Many parts are set up for paitning
+		18. Engines are given a "thermal efficiency" variable: "Make engines actually heat up. This patch is temporary to test the formula. Engines should heat up but not overheat."
+	(Bluedog Design Bureau AFTER)
+		19. (Because we have Waterfall) Even more BDB parts are set up for Waterfall.
+		20. Even more parts are set up for paint
+		21. A Centaur interstage fairing is patched
+		22. Some more IVAs are updated
+	(BLUEDOG_DB_1 FOR)
+		23. BDB fuel tanks are set up for B9 Part Switch
+	(BLUEDOG_DB_1 AFTER)
+		24. (Because we have SSPX) BDB containers are set up like SSPX
+	(BLUEDOG_DB_2, BLUEDOG_DB_8 FOR)
+		25. More BDB fuel tanks are set up for B9 Part Switch
+	(Cryogenic Engines FOR)
+		26. Cryogenic Engines engines are set up for Community Tech Tree
+		27. Cryogenic Engines engines are set up for VABorganizer
+		28. Cryogenic Engines engines are set up for Waterfall
+		29. (CEX) CEX engines are set up for VABorganizer
+	(CryoEngines Extensions FOR)
+		30. CEX engines are set up for Community Tech Tree
+		31. CEX engines are set up for Waterfall
+	(CryoTanks BEFORE)
+		32. ISRU converters are set up to generate cryofuels
+	(CryoTanks FOR)
+		33. Fuel Cells are set up to burn cryofuels
+		34. ISRU converters continue to be patched
+		35. CryoTanks tanks are sorted in VABOrganizer
+	(CryoTanks AFTER)
+		36. NFLV Heavy RCS is set up to have biprop fuel switches
+	(Far Future Technologies FOR)
+		37. FFT parts are added to the CTT Tree
+		38. Redundant lithium tanks are soft-deprecated
+		39. FFT parts are set up for VABorganizer
+	(Heat Control FOR)
+		40. Heat Control radiators set up for VABorganizer
+	(Kerbal Atomics FOR)
+		41. Kerbal Atomics engines set up for CTT
+		42. Kerbal Atomics engines set up for VAB Organizer
+		43. Kerbal Atomics engines set up for Waterfall
+	(Kopernicus FOR)
+		44. A blank config file is applied to the solar system
+	(Kopernicus_Version FOR)
+		45. A version number is registered for Kopernicus
+	(KSPCommunityFixes FOR)
+		46. Some parts found lying by the side of the road are given to established agencies.
+	(KSPCommunityFixes AFTER)
+		47. "Kerbal Joint Reinforcement Continued" enables the patch DockingPortLockedEvents
+	(Near Future Construction FOR)
+		48. CTT
+		49. Trusses set up for some tank switches
+		50. VABorganizer
+	(Near Future Electrical FOR)
+		51. CTT (soft deprecated parts)
+		52. CTT (active parts)
+		53. VABorganizer
+	(Near Future Exploration FOR)
+		54. Antenna Feed properties for NFEX
+		55. Antenna Feed properties for ReStock Plus
+		56. Antenna Feed properties for Stock
+		57. CTT
+		58. CRP
+		59. CryoTanks
+		60. VABorganizer
+	(Near Future Launch Vehicles FOR)
+		61. CTT
+		62. ReStock Depth Masks
+		63. VABorganizer
+		64. Waterfall
+	(Near Future Propulsion FOR)
+		65. CTT
+		68. (Because we have CryoTanks) LH2 electric RCS
+		69. VABorganizer
+		70. Waterfall
+	(Near Future Propulsion AFTER)
+		71. Electric engine setting patch
+	(Near Future Solar FOR)
+		72. CTT
+		73. VABorganizer
+	(Near Future Spacecraft FOR)
+		74. CTT
+		75. VABorganizer
+		76. Waterfall
+	(ReStock AFTER)
+		77. (Because we have Near Future Props) more IVA props
+	(ReStockPlus FOR)
+		78. VABorganizer
+		79. Science contracts
+		80. NFLV anti-redundancy
+	(ReStock Waterfall Expansion FOR)
+		81. Waterfall plumes
+	(ReStock Waterfall Expension [sic] FOR)
+		82. Swivel Plume
+	(Rocket Sound Enhancement FOR)
+		83. CEX sounds (bug, we do not have RSE)
+	(Sigma Dimensions FOR)
+		84. Ensures case sensitive booleans are spelled right
+		85. Avoids duplicate PQS
+		86. Flattens planetary atmospheres and oceans, as well as terrain
+	(Sigma Dimensions AFTER)
+		87. Ensures nothing is busted
+	(Sigma Dimensions 2 FOR)
+		88. Apply advanced settings
+		89. Scale antennas and SCANsat if applicable
+		90. Scale EVE clouds
+	(Space Dust FOR)
+		91. Allow Argon and Hydrogen acquisition, scanning
+		92. VABorganizer
+	(SSPX FOR)
+		93. CTT
+		94. VABorganizer
+		95. IVAs
+		96. TAC Life Support compat
+	(Sterling Systems AFTER)
+		97. Part switches
+	(Stock Waterfall Effects FOR)
+		98. Some specific RWE patches
+	(System Heat FOR)
+		99. Heat Control radiator patches
+		100. Stock radiator patches
+		101. ISRU converters
+		102. NFE converters
+		103. Kerbal Atomics nuclear engines
+		105. Restock Plus nuclear engine
+		106. Stock nuclear engines
+		107. NFE reactors
+		108. Drills
+		109. NFP Electric Engines
+		110. Stock Ion Engines
+	(VABorganizer FOR)
+		111. Restock Plus
+		112. Breaking Ground
+		113. Making History
+		114. Stock
+		115. Heat Control
+		116. Near Future Solar
+	(Waterfall Restock FOR)
+		117. More RWE plumes
+	(Z_SYSTEMHEAT FOR)
+		118. Lithium ISRU for Far Future Technologies and NFP
+	(ZCRYOTANKS FOR)
+		119. Waterfall plumes for NFLV / CryoTanks RCS
+	(ZKERBALATOMICS FOR & AFTER)
+		120. hydrogenNTRsSQUAD
+		121. KerbalAtomicsLH2NTRModSupport
+	(ZZ Bluedog DB BEFORE)
+		123. VABorganizer
+	(ZZ Bluedog DB FOR)
+		124. More SRB thrust curves
+	(ZZ Bluedog DB AFTER)
+		125. More VABorganizer
+	(zz Kerbal Atomics FOR)
+		126. NERV Waterfall
+	(zz ReStock Plus FOR)
+		127. Soft-deperecate parts if MH installed
+	(zzz CryoTanks BEFORE, FOR)
+		128. Apply fuelswitches
+	(zzz CryoTanks AFTER)
+		129. Apply System Heat boiloff
+	(zzzBluedog_DB_0, 1, 2)
+		130. Compensate for rescaling
+	(zzzBluedog_DB 9)
+		131. Clean up tank switch and rescale variables
+	(zzzzBluedog_DB)
+		132. Append B9partswitch and Deprecation warnings to descriptions
+	(zzzzNFConstruction)
+		133. Update the Cubic Strut
+	(zzzzStationParts)
+		134. Update the Cupola, Hitchhiker Container, Clamp-o-Tron, and Mobile Lab
+	(zzzzzz-B9PartSwitch)
+		135. Add ModuleB9PartInfo to all B9PS parts
+LAST
+	(Background Thrust)
+		136. Set up all aprts for Background Thrust
+	(Bluedog_DB)
+		137. Prune Real Names fields
+		138. Apply UI group names to B9 part switches
+	(CryoTanks)
+		139. Patch for Procedural Parts
+	(KOP_MULTI_STAR)
+		140. Set up all the solar panels for multi-star in Kopernicus
+	(zKopernicus)
+		141. Config backups
+FINAL
+	(Bluedog Design Bureau)
+		142. Tidies up filter extensions and extra fields for BDB
+	(Kopernicus)
+		143. Disable conflicting patch in KSP community fixes
+	(PartInfo)
+		144. Give all parts info
+	(ReStock Waterfall Expansion)
+		145. Apply patch to Cheetah waterfall
+	(System Heat Converters)
+		146. Apply patch to FFT Antimatter Factory and NFE Nuclear Recycler
