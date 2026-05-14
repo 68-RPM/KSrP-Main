@@ -36,6 +36,7 @@ conflicts:
   - name: Ignition
   - name: InterstellarFuelSwitch-Core
   - name: KSPInterstellarExtended
+  - name: KSP-Recall
   - name: RationalResources
   - name: ROLib
   - name: RealismOverhaul
@@ -44,4 +45,6 @@ conflicts:
   - name: RP-1-ExpressInstall
   - name: RP-1
   - name: RP-1FullThrust
+  - name: TweakScale
+  - name: TweakScaleCompanion
   - name: VABOrganizer-Jade
