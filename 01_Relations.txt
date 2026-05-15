@@ -34,6 +34,7 @@ suggests:
 conflicts:
   - name: AlmostFreeLaunchClamps
   - name: AstronomersVisualPack
+  - name: DockingPortSoundFX
   - name: FairingFix
   - name: KerbalWitchery
   - name: KerbealisticDocking
@@ -43,6 +44,7 @@ conflicts:
   - name: OCCULT
   - name: PlanetShine
   - name: RationalHydroDynamics
+  - name: RCSSounds
   - name: RealisticPowerDraw
   - name: SkyhawkScienceSystem
   - name: Spectra

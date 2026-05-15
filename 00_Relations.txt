@@ -37,6 +37,7 @@ conflicts:
   - name: InterstellarFuelSwitch-Core
   - name: KSPInterstellarExtended
   - name: KSP-Recall
+  - name: ModuleRCSFX
   - name: RationalResources
   - name: ROLib
   - name: RealismOverhaul
