@@ -4,7 +4,6 @@ depends:
   - name: CryoTanks
   - name: CryoEngines
   - name: CryoEnginesExtensions
-  - name: DMagicScienceAnimate
   - name: FarFutureTechnologies
   - name: HangerExtenderExtended
   - name: HeatControl

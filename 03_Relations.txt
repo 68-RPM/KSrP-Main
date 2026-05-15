@@ -1,11 +1,12 @@
 depends:
-  - name: KSRP_01
+  - name: KSRP_02
   - name: B9
   - name: B9AerospaceHX
   - name: B9AerospaceLegacy
   - name: ComfortableLanding
   - name: CoriolisSpaceSystems
   - name: DunaDirect
+  - name: DMagicScienceAnimate
   - name: GrondsMicrometeoriteShield
   - name: InlineBallutes
   - name: Interkosmos
