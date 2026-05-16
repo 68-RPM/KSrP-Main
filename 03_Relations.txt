@@ -3,6 +3,7 @@ depends:
   - name: B9
   - name: B9AerospaceHX
   - name: B9AerospaceLegacy
+  - name: BeamedPowerPlugin
   - name: ComfortableLanding
   - name: CoriolisSpaceSystems
   - name: DunaDirect

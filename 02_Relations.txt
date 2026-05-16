@@ -16,6 +16,7 @@ depends:
   - name: NearFuturePropulsion
   - name: NearFutureSolar
   - name: NearFutureSpacecraft
+  - name: SillyPhotonDrives
   - name: SpaceDust
   - name: StationPartsExpansionRedux
   - name: StationPartsExpansionRedux-IVAs
