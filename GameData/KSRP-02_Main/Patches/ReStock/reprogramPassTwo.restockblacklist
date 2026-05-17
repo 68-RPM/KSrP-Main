@@ -22,6 +22,8 @@ NearFutureLaunchVehicles/Parts/Coupling/nflv-decoupler-5-1
 NearFutureLaunchVehicles/Parts/Coupling/nflv-separator-5-1
 NearFutureLaunchVehicles/Parts/Payload/nflv-fairing-5-1
 FarFutureTechnologies/Parts/Tanks/Lithium/
+SupplementaryElectricEngines/Parts/FuelTanks/
+SupplementaryElectricEngines/Parts/Engine/SEE_FEEP_*
 
 ConformalDecals/Flags/
 ConformalDecals/Parts/Generic/Generic-Atlas.dds
