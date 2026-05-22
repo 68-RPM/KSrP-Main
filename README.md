@@ -18,16 +18,16 @@ The ReProgram project began in March of 2025, though it originates from my perso
 
 - **MODULE 02** (‘More’)
    - *‘Specifying Impulse’* expansion. Although it is not required, ***KSrP* is considered incomplete without this module!**
-   - Consists of the entire *Post-Kerbin* (Nertea) suite apart from Aeronautics and Mk4 Spaceplanes four choice parts from `SterlingSystemsThermalsExotic`, and a port of the Daedalus engine from *KSP Interstellar*.
+   - Consists of the entire *Post-Kerbin* (Nertea) suite (apart from Aeronautics and Mk4 Spaceplanes) and a planet pack (subject to change, may split to its own module).
    - As a bonus, you get the extra space suits from *Historical Kerbal Suits* (`Benjee10Suits`)
 
 - **MODULE 03** (‘Moar’)
    - *‘Dreaming Big’* expansion.
    - Consists of `RasterPropMonitor` support, and RPM-dependent mods such as `ALCOR` or `B9`.
-   - Parts focused on Speculative Fiction / ‘Hard Science Fiction’ media such as *Coriolis Space Systems*, *The Martian for KSP*, or Benjee10's upcoming *Endurance* remake / *Interstellar* mod are compiled in this pack as well.
+   - Parts focused on Speculative Fiction / ‘Hard Science Fiction’ media such as *Coriolis Space Systems*, *The Martian for KSP*, or Benjee10's upcoming *Endurance* remake / *Interstellar* mod are compiled in this pack as well. There's choice parts from `SterlingSystemsThermalsExotic` and a port of some parts from *KSP Interstellar* as well!
 
 - **MODULE 04** (‘NASA’)
-   - The *‘Committee on Aeronautics and Space Advancement’* DLC. (‘DLC’ as in what that originally meant!)
+   - The *‘Committee on Aeronautics and Space Advancement’* DLC. (‘DLC’ as in what that originally meant, not ‘paid’!)
    - DLC parts are typically more bespoke / complex, so they are handled by separate sub-categories, which call them ‘Model Kit’ parts! (as opposed to Stock and Nertea parts, which would be ‘Building Blocks’.)
    - The CASA module compiles stockalike part mods for:
        - **NASA** (United States)
